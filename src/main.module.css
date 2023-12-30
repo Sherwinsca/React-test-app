@@ -1,0 +1,20 @@
+:root{
+    --antique-white: antiquewhite;
+    --crimson-red: crimson;
+}
+
+.mainpage{
+    width:500px;
+    height: auto;
+    padding: 10px 50px;
+    background-color: var(--antique-white);
+    color: var(--crimson-red);
+    text-align: center;
+    margin: 50px 650px;
+    border-radius: 50px;
+}
+.imgStyle{
+    width: 500px;
+    height: 300px;
+    border-radius: 50px;
+}
