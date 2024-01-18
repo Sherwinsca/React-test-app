@@ -18,3 +18,12 @@
     height: 300px;
     border-radius: 50px;
 }
+.headingStyle{
+    text-align: center;
+    color: purple;
+}
+.skillContainer{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+}
