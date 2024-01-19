@@ -21,6 +21,7 @@
 .headingStyle{
     text-align: center;
     color: purple;
+    font-weight: bold;
 }
 .skillContainer{
     width: 200px;

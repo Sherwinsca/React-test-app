@@ -15,20 +15,27 @@ function App() {
       <div key={index}>
         <h1 className={classes.headingStyle}>{data.id} {index+1} </h1>
           <div className={classes.mainpage}>
-            <h1> {data.name} </h1>
+            <h1> {data.name} 👩‍🦰 </h1>
             <img key={index} className={classes.imgStyle} src={userImage.image}></img>
             <h2>{data.userRole}</h2>              
           </div>
       </div>      
     );  
   });
+
+ const stuDetails={
+  stuName:"Sherofin",
+  age:18
+ }
+
   return(
     <div className="App">
       <main>
         <div>
             {userCards}
         </div>
-        <TestApp name={"Madhu"} age={20}/>
+        <TestApp stuDetails={stuDetails}/>
+        <TestApp />
       </main>
     </div>
   );
